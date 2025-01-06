@@ -19,6 +19,19 @@ const config = {
     },
     extend: {
       colors: {
+        'tablekun': {
+          '50': '#f3f1ff',
+          '100': '#eae5ff',
+          '200': '#d7ceff',
+          '300': '#baa7ff',
+          '400': '#9a76ff',
+          '500': '#7b3fff',
+          '600': '#6d18ff',
+          '700': '#6007fa',
+          '800': '#5005d2',
+          '900': '#4306ac',
+          '950': '#19004c',
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
