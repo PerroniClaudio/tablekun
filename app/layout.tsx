@@ -26,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={geistSans.className} suppressHydrationWarning>
-      <body className="bg-background text-foreground">
+      <body className="bg-tablekun-950 text-tablekun-100">
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
@@ -37,7 +37,6 @@ export default function RootLayout({
               <div className="flex flex-col gap-20 max-w-5xl p-5">
                 {children}
               </div>
-              <ThemeSwitcher />
           </main>
         </ThemeProvider>
       </body>
