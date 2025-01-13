@@ -7,7 +7,6 @@ export default async function Page() {
   const { data: episodes } = await supabase.from('episodes').select()
 
   return <div>
-    <h1 className='text-4xl font-semibold'>Episodes</h1>
     <div className='mt-8'>
       {episodes && (
         <EpisodesList episodes={episodes} />
